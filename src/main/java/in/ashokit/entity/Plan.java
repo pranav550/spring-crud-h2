@@ -127,7 +127,7 @@ public class Plan {
     @CreationTimestamp
 	private LocalDate createDate;
     
-    @Column(name = "UPDATED_DATE",insertable = false)
+    @Column(name = "UPDATE_DATE",insertable = false)
     @UpdateTimestamp 
 	private LocalDate updateDate;
 
